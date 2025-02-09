@@ -42,7 +42,9 @@ func main() {
 		fmt.Println("Maaf nilai anda C")
 	} else if 70 > x && x >= 60 {
 		fmt.Println("Maaf nilai anda D")
-	} else {
+	} else if 60 > x && x >= 0 {
 		fmt.Println("Maaf nilai anda E")
+	} else {
+		fmt.Println("Nilai yang anda masukan tidak valid")
 	}
 }
